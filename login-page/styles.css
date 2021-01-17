@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+:root{
+    --color-shadow: #2f3640;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    background:linear-gradient(90deg, #c94b4b 0%,#4b134f 100% );
+}
+
+span{
+    color:darkslategray;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 16px;
+    background: white;
+    width: 24%;
+}
+
+.container:hover{
+    box-shadow: 0 0 24px var(--color-shadow), 0 0 24px rgba(0, 0, 0, 0.8);
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.division-lineLeft {
+    border-top: solid 0.1px;
+    margin: 10px;
+    color: #cecece;
+} 
+
+ .division-lineRight {
+    border-top: solid 0.1px;
+    margin: 10px;
+    color: #cecece;
+}
+
+.division{
+
+    color: darkslategray;
+        margin: 7px;
+        text-align: center;
+}
+
+.mediaSocial {
+    text-align: center;
+}
+
+.facebookButton{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    margin: 8px 0px -3px 0px;
+    padding: 5px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.gmailButton {
+    box-shadow: 0 0 4px var(--color-shadow), 0 0 24px rgba(0, 0, 0, -0.2);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.form-group span{
+    font-size: 12px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.form-group input {
+    margin-bottom: 6px;
+    border: none;
+    border-bottom: solid 1px #cecece;
+    padding: 8px;
+    width: 90%;
+    margin-left: 11px;
+}
+
+.form-group input:focus{
+    outline: 0;
+}
+
+
+.input-submit{
+    background:linear-gradient(90deg, #c94b4b 0%,#4b134f 100% );
+    font-size: 15px;
+    margin-left: 9px;
+    color: white;
+}
